@@ -1,0 +1,3 @@
+RewriteEngine on
+RewriteCond %{HTTPS_HOST} ^puenteformacio.netlify.app$ [OR]
+RewriteCond %{HTTPS_HOST} ^puenteformacio.netlify.app$ rewriterule ^(.\*)$ https://puenteformacio.sytes.net
